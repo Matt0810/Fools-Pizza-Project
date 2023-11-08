@@ -3,9 +3,7 @@
 
 Each student should put an 'X' under their name on the days they attend class.
 
-## Student Names: | Student 1 | Student 2 | Student 3 |
-------------------|Matthew Enriquez|-----------|-----------|
-------------------|Christopher Orellana|-----------|-----------|
+## Student Names: | Matthew Enriquez | Christopher Orellana | 
 
 ### November 2023
 
