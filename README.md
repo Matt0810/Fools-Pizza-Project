@@ -8,7 +8,7 @@ Each student should put an 'X' under their name on the days they attend class.
 
 ### November 2023
 
-| Date        | Student 1 | Student 2 | Student 3 |
+| Date        | Matthew Enriquez | Student 2 | Student 3 |
 |-------------|-----------|-----------|-----------|
 | Nov 8 (Wed) |     X      |           |           |
 | Nov 10 (Fri)|           |           |           |
