@@ -11,7 +11,7 @@ Each student should put an 'X' under their name on the days they attend class.
 
 | Date        | Matthew Enriquez |Christopher Orellana| Student 3 |
 |-------------|-----------|-----------|-----------|
-| Nov 8 (Wed) |     X      |           |           |
+| Nov 8 (Wed) |     X      |      X     |           |
 | Nov 10 (Fri)|           |           |           |
 | Nov 15 (Wed)|           |           |           |
 | Nov 17 (Fri)|           |           |           |
