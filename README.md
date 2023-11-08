@@ -19,7 +19,7 @@ Each student should put an 'X' under their name on the days they attend class.
 
 ### December 2023
 
-| Date        | Student 1 | Student 2 | Student 3 |
+| Date        | Matthew Enriquez | Student 2 | Student 3 |
 |-------------|-----------|-----------|-----------|
 | Nov 29 (Wed)|           |           |           |
 | Dec 1 (Fri) |           |           |           |
