@@ -6,3 +6,7 @@
 [Link to SWOT Analysis](/Business-Analysis-Files/SWOT-Analysis.md)
 
 [Link to Persona](/Business-Analysis-Files/Persona.md)
+
+[Link to Customer Journey](/Business-Analysis-Files/customer-journey.md)
+
+[Link to User Stories](/Business-Analysis-Files/user-stories.md)
