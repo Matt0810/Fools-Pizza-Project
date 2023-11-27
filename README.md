@@ -12,3 +12,5 @@
 [Link to User Stories](/Business-Analysis-Files/user-stories.md)
 
 [Link to User Epics](/Business-Analysis-Files/user-epics.md)
+
+[Link to Figma Designs](Business-Analysis-Files/figma-design.md)
