@@ -10,3 +10,5 @@
 [Link to Customer Journey](/Business-Analysis-Files/customer-journey.md)
 
 [Link to User Stories](/Business-Analysis-Files/user-stories.md)
+
+[Link to User Epics](/Business-Analysis-Files/user-epics.md)
