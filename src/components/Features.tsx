@@ -14,7 +14,7 @@ const Features = () => {
   };
 
   // Function to handle form submission (you can customize this according to your needs)
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Add logic to handle the email submission (e.g., send to a server, integrate with Mailchimp, etc.)
     console.log('Submitted email:', email);
