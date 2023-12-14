@@ -9,7 +9,7 @@ const Features = () => {
   const [email, setEmail] = useState('');
 
   // Function to handle changes in the email input
-  const handleEmailChange = (e) => {
+  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
 
