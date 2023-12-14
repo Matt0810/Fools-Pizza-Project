@@ -3,7 +3,7 @@ import config from '../config/index.json';
 
 const Features = () => {
   const { features } = config;
-  const { title, subtitle, description, items: featuresList } = features;
+  const { title, subtitle, description } = features;
 
   // State for managing the email input
   const [email, setEmail] = useState('');
