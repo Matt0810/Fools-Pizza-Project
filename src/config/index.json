@@ -9,7 +9,7 @@
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "Newsletter",
       "href": "features"
     },
 
@@ -56,15 +56,13 @@
     "description": "Join Our Newsletter to be updated for every promotion and deal at Fool's Pizza! First time users will recieve a 30% off promo code for their next order!",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        
       }
       
     ]
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "Reviews",
     "items": [
       {
         "name": "Free",
