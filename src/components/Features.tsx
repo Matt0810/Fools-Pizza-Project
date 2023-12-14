@@ -79,7 +79,7 @@ const Features = () => {
                     <div className="response" id="mce-success-response" style={{ display: 'none' }}></div>
                   </div>
                   <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
-                    <input type="text" name="b_88f422eebc51657070ba47a0d_614a98dedd" tabIndex="-1" value="" />
+                    <input type="text" name="b_88f422eebc51657070ba47a0d_614a98dedd" tabIndex={-1} value="" />
                   </div>
                   <div className="optionalParent">
                     <div className="clear foot">
