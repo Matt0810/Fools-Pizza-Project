@@ -68,7 +68,7 @@ const Features = () => {
                       name="EMAIL"
                       className="required email"
                       id="mce-EMAIL"
-                      required=""
+                      required
                       value={email}
                       onChange={handleEmailChange}
                     />
