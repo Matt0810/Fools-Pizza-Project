@@ -61,37 +61,32 @@
     "title": "Reviews",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
+        "name": "/assets/images/reviewer1.png",
+        "price": "⭐⭐⭐⭐",
         "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
+          "Alex Mitchell",
+          "2 Hours Ago",
+          "'I Ordered Last Night And It Was The Best Pizza I Ever Had!'"
         ]
       },
       {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
+        "name": "/assets/images/reviewer2.webp",
+        "price": "⭐⭐⭐⭐⭐",
 
         "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
+          "Sophia Bennett",
+          "1 Week Ago",
+          "'I Always Order From Fool's Pizza!'"
         ]
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
+        "name": "/assets/images/reviewer3.png",
+        "price": "⭐⭐⭐⭐",
         "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
+          "Isabella Rodriguez",
+          "1 Day Ago",
+          "'Yummy!!'"
+          
         ]
       }
     ]
