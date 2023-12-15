@@ -9,6 +9,7 @@
     "export": "next export",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
+    "test": "playwright test",
     "build-types": "tsc --noEmit --pretty"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
     "framer-motion": "^5.0.0",
     "next": "^12.0.0",
     "next-seo": "^4.28.1",
+    "playwright": "^1.40.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-modal": "^3.16.1",
@@ -26,7 +28,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.0.0",
-    "@types/node": "^16.11.6",
+    "@types/node": "^20.7.0",
     "@types/react": "^17.0.33",
     "@types/react-modal": "^3.16.3",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
