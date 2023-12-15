@@ -14,30 +14,26 @@
     },
 
     {
-      "name": "Pricing",
+      "name": "Reviews",
       "href": "pricing"
     },
     {
-      "name": "About",
+      "name": "Privacy",
       "href": "about"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
   "mainHero": {
     "title": "Pizza",
     "subtitle": "your way.",
-    "description": "Sign Up To Fool's Pizza Newsletter To Stay Up To Date And Recieve 30% Off Your Next Order!",
+    "description": "Sign Up To Fool's Pizza Newsletter To Stay Up To Date And Receive 30% Off Your Next Order!",
     "img": "/assets/images/pizzaparty.jpg",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Sign Up",
+      "href": "features"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:foolspizza@gmail.com?subject=I Love Fools Pizza!"
     }
   },
   "product": {
