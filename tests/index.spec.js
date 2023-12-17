@@ -57,3 +57,17 @@ test("index.json contains 'Reviews'", async ({ page }) => {
   // Check if the content contains the text "Reviews"
   expect(jsonContent).toHaveProperty("text", "Reviews");
 });
+
+test("index.json contains 'Privacy'", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the text "Privacy"
+  expect(jsonContent).toHaveProperty("text", "Privacy");
+});
