@@ -1,22 +1,134 @@
-// tests/mainHero.spec.js
 import { test, expect } from "@playwright/test";
 
 const localhost = "http://localhost:3000";
 
-test("mainHero.tsx has mainHero.description", async ({ page }) => {
-  // Load the page where mainHero.tsx is rendered
-  await page.goto(`${localhost}/path-to-page-containing-mainHero`);
+test("index.json contains 'Fool's Pizza'", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
 
-  // Assuming you need to interact with your app to render the mainHero component
-  // Perform necessary actions to render the mainHero component
-  // For example, you might need to scroll to the section or trigger certain user actions
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
 
-  // Wait for the component to render (modify the selector based on your actual structure)
-  await page.waitForSelector(".mainHero");
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
 
-  // Get the content of the mainHero component (modify the selector based on your actual structure)
-  const content = await page.textContent(".mainHero");
+  // Check if the content contains "Fool's Pizza"
+  expect(jsonContent).toHaveProperty("text", "Fool's Pizza");
+});
 
-  // Check if the content includes mainHero.description
-  expect(content).toContain("mainHero.description");
+test("index.json contains 'Catering'", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the text "Catering"
+  expect(jsonContent).toHaveProperty("text", "Catering");
+});
+
+test("index.json contains 'Newsletter'", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the text "Newsletter"
+  expect(jsonContent).toHaveProperty("text", "Newsletter");
+});
+
+test("index.json contains 'Reviews'", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the text "Reviews"
+  expect(jsonContent).toHaveProperty("text", "Reviews");
+});
+
+test("index.json contains 'Privacy'", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the text "Privacy"
+  expect(jsonContent).toHaveProperty("text", "Privacy");
+});
+
+test("index.json contains newsletter message", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the specified newsletter message
+  const expectedMessage =
+    "Sign Up To Fool's Pizza Newsletter To Stay Up To Date And Receive 30% Off Your Next Order!";
+  expect(jsonContent).toHaveProperty("newsletterMessage", expectedMessage);
+});
+
+test("index.json contains 'Cater With Us!' text", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the specified text
+  const expectedText = "Cater With Us!";
+  expect(jsonContent).toContainText(expectedText);
+});
+
+test("index.json contains 'Don't Miss Out On 30% Off Your Next Order!' text", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the specified text
+  const expectedText = "Don't Miss Out On 30% Off Your Next Order!";
+  expect(jsonContent).toContainText(expectedText);
+});
+
+test("index.json contains 'I Ordered Last Night And It Was The Best Pizza I Ever Had!' text", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the specified text
+  const expectedText = "'I Ordered Last Night And It Was The Best Pizza I Ever Had!'";
+  expect(jsonContent).toContainText(expectedText);
 });
