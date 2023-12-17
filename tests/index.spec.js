@@ -87,3 +87,18 @@ test("index.json contains newsletter message", async ({ page }) => {
     "Sign Up To Fool's Pizza Newsletter To Stay Up To Date And Receive 30% Off Your Next Order!";
   expect(jsonContent).toHaveProperty("newsletterMessage", expectedMessage);
 });
+
+test("index.json contains 'Cater With Us!' text", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the specified text
+  const expectedText = "Cater With Us!";
+  expect(jsonContent).toContainText(expectedText);
+});
