@@ -15,3 +15,17 @@ test("index.json contains 'Fool's Pizza'", async ({ page }) => {
   // Check if the content contains "Fool's Pizza"
   expect(jsonContent).toHaveProperty("text", "Fool's Pizza");
 });
+
+test("index.json contains 'Catering'", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the text "Catering"
+  expect(jsonContent).toHaveProperty("text", "Catering");
+});
