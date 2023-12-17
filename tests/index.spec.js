@@ -102,3 +102,18 @@ test("index.json contains 'Cater With Us!' text", async ({ page }) => {
   const expectedText = "Cater With Us!";
   expect(jsonContent).toContainText(expectedText);
 });
+
+test("index.json contains 'Don't Miss Out On 30% Off Your Next Order!' text", async ({ page }) => {
+  // Load the index.json file
+  await page.goto(`${localhost}/index.json`);
+
+  // Get the content of the index.json file
+  const content = await page.textContent("pre");
+
+  // Parse the content as JSON
+  const jsonContent = JSON.parse(content);
+
+  // Check if the content contains the specified text
+  const expectedText = "Don't Miss Out On 30% Off Your Next Order!";
+  expect(jsonContent).toContainText(expectedText);
+});
