@@ -1,3 +1,6 @@
+[Link to Presentation](https://www.youtube.com/watch?v=ESsspDy8byI)
+
+[Link to Website](https://it218003-final.vercel.app/)
 
 [Link to Attendance](attendance.md)
 
